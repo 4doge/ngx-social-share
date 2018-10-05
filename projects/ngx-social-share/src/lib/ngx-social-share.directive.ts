@@ -29,6 +29,9 @@ export class SocialShareDirective {
       case 'dg':
         window.open(`http://digg.com/submit?url=${url}`);
         break;
+      case 'pn':
+        window.open(`http://pinterest.com/pin/create/link/?url=${url}`);
+        break;
       default:
         break;
     }
